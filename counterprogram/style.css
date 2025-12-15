@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(204, 152, 83);
+}
+#countlabel{
+    display :block;
+    text-align: center;
+    font-size: 10em;
+    font-family: Helvetica;
+}
+.button{
+    padding:10px 20px;
+    font-size: 1.5em;
+    color:black;
+    background-color: chocolate;
+    border-radius: 5px;
+    cursor: pointer;
+    transition:background-color 0.25s;
+}
+.button:hover{
+    background-color:cadetblue;
+}
+#btncontainer{
+    text-align: center;
+}
+.decreasebtn{
+   background-color:red;
+}
+.increasebtn{
+    background-color:green;
+}
+.resetbtn{
+    background-color: cadetblue;
+}
